@@ -1,0 +1,570 @@
+
+body {
+    background: #FDA184;
+}
+section {
+    position: relative;
+    overflow: hidden;
+}
+.firstsection {
+    width: 100vw;
+    /* или 38 в вьюпортах если я посчитала правильно? */
+    height: 823px; 
+}
+
+.blob {
+    position: absolute;
+    left: 23%;
+    top: 22%;
+
+}
+
+.name1 {
+    position: absolute;
+    font-family: 'Singly Linked';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 111px;
+    line-height: 446px;
+    left: 10%;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.conf1 {
+    position: absolute;
+    left: 9%;
+    z-index: -2;
+
+}
+
+.conf1scale {
+    width: 1183px;
+    height: 777px;
+}
+
+.doggie1 {
+    z-index: -1;
+    position: absolute;
+    top: 28%;
+    left: 52%;
+    opacity: 0;
+}
+
+.doggie1scale {
+    transform: scale(0.85);    
+}
+
+
+.appear {
+    animation: appear 4s linear;
+}
+
+
+.rabbit1 {
+    position: absolute;
+    z-index: -1;
+    top: 10%;
+    left:11%;
+    opacity: 0;
+    transform: rotate(12deg);
+}
+
+.appearR{
+    animation: appearR 3s linear;
+}
+
+
+.secondsection{
+    width: 100vw;
+    height: 566px;
+}
+.anim1 {
+    width: 100vw;
+    height: 531px;
+}
+
+.anim2 {
+    width: 100vw;
+    height: 694px;
+}
+
+.polka {
+    width: 100vw;
+    height: 35px;
+    background-color: #5B2324;
+}
+
+
+.b1{
+    position: absolute;
+    top: 26%;
+}
+.b2 {
+    position: absolute;
+    top: 42%;
+    left: 45%;
+}
+.b3 {
+    position: absolute;
+    top: 27%;
+    left: 54%;
+}
+
+
+
+.pawshow {
+    opacity: 1;
+    transition: 0.3s;
+}
+
+.paws1 {
+    position: absolute;
+    right: 1%;
+    top: 9%;
+    /* z-index: -1; */
+}
+.paws1c {
+    position: absolute;
+    opacity: 0;
+ 
+}
+
+.paw2 {
+    position: absolute;
+    right: 10%;
+    top: 10%;
+    /* z-index: -1;     */
+}
+.paw2c {
+    position: absolute;
+    display: none;  
+}
+
+.paw3 {
+    position: absolute;
+    right: 15%;
+    top: 17%;
+    /* z-index: -1;     */
+}
+.paw3c {
+    position: absolute;
+    display: none;
+}
+
+.paws4 {
+    position: absolute;
+    right: 16%;
+    /* z-index: -1;    */
+}
+.paws4c {
+    position: absolute;  
+    display: none; 
+}
+
+.paw5 {
+    position: absolute;
+    right: 24%;
+    /* z-index: -1;   */
+}
+.paw5c{
+    position: absolute;  
+    display: none;    
+}
+
+.paw6 {
+    position: absolute;
+    right: 30%;
+    top: 9%;
+    /* z-index: -1;  */
+}
+.paw6c {
+    position: absolute;  
+    display: none;   
+}
+
+.text1 {
+    position: absolute;
+    left: 9%;
+    top: 5%;
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 61px;
+    color: #F4F4F4;
+    font-family: 'shirota', arial;                                                
+}
+
+.paw7 {
+    position: absolute;
+    right: 36%;
+    /* z-index: -1; */
+}
+.paw7c {
+    position: absolute;  
+    display: none;   
+}
+
+.paw8 {
+    top: 25%;
+    left: 47%;
+    position: absolute;
+    /* z-index: -1; */
+}
+.paw8c {
+    position: absolute;  
+    display: none;    
+}
+
+.paw9 {
+    /* z-index: -1; */
+    top: 35%;
+    position: absolute;
+    left: 18%;
+}
+.paw9c {
+    position: absolute;  
+    display: none;    
+}
+
+.paw10 {
+    position: absolute;
+    /* z-index: -1; */
+    top: 30%;
+    left: 10%;
+}
+.paw10c {
+    position: absolute;  
+    display: none;    
+}
+
+.paw11 {
+    position: absolute;
+    /* z-index: -1; */
+}
+.paw11c {
+    position: absolute;  
+    display: none;    
+}
+
+.rowCow {
+    position: absolute;
+    /* z-index: 2; */
+    top: 50%;
+}
+
+.running {
+    animation: runningcow 7s infinite;
+}
+
+.rowCow:hover {
+    animation-play-state: paused;
+}
+
+
+.b4, .b5, .b6, .b7 {
+    position: absolute;
+
+}
+.b4 {
+    left: 10%;
+    top: 40.5%;
+}
+.b5 {
+    top: 40.5%;
+    left: 41%;
+}
+.b6 {
+    left: 50.3%;
+    top: 45.5%;
+}
+.b7 {
+    top: 45%;
+    right: 10%;
+}
+
+
+.rowCow2 {
+    position: absolute;
+    top: 61%;
+}
+
+.running2 {
+    animation: runningcow2 7s infinite;
+}
+
+.rowCow2:hover {
+    animation-play-state: paused;
+}
+
+
+
+
+.Secpaw1 {
+    position: absolute;
+    top: 47%;
+    left: 3%;
+}
+.Secpaw2 {
+    position: absolute;
+    top: 37%;
+    left: 4%;
+    
+}
+.Secpaw3 {
+    position: absolute;
+    top: 30%;
+    left: 15%;
+    
+}
+.Secpaw4 {
+    position: absolute;
+    top: 43%;
+    left: 20%;    
+}
+.Secpaw5 {
+    position: absolute;
+    top: 30%;
+    left: 23%;    
+}
+.Secpaw6 {
+    position: absolute;
+    top: 43%;
+    left: 26%; 
+}
+.Secpaw7 {
+    position: absolute;
+    top: 31%;
+    left: 31%;
+}
+.Secpaw8 {
+    position: absolute;
+    top: 41%;
+    left: 34%;
+}
+.Secpaw9 {
+    position: absolute;
+    top: 27%;
+    left: 37%;
+}
+.Secpaw10 {
+    position: absolute;
+    top: 27%;
+    left: 46%;   
+}
+
+.text2 {
+    position: absolute;
+    left: 55%;
+    top: 23%;
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 61px;
+    color: #F4F4F4;
+    font-family: 'shirota', arial;   
+}
+
+.Secpaw11 {
+    position: absolute;
+    top: 38%;
+    left: 50%;
+}
+.Secpaw12 {
+    position: absolute;
+    top: 44%;
+    right: 36%;   
+}
+.Secpaw13 {
+    position: absolute;
+    top: 44%;
+    right: 27%;    
+}
+.Secpaw14 {
+    position: absolute;
+    top: 40%;
+    right: 22%;    
+}
+.Secpaw15 {
+    position: absolute;
+    top: 47%;
+    right: 17%;   
+}
+.Secpaw16 {
+    position: absolute;
+    top: 47%;
+    right: 10%;   
+}
+.Secpaw17 {
+    position: absolute;
+    top: 47%;
+    right: 5%;      
+}
+.Secpaw18 {
+    position: absolute;
+    top: 35%;
+    right: 0%;   
+}
+
+.anim3 {
+    height: 881px;
+    width: 100vw;
+}
+.footer {
+    width: 100vw;
+    height: 122px;
+    background: #5B2324;
+}
+
+.btTxt {
+    position: absolute;
+    font-weight: 400;
+    font-size: 31px;
+    line-height: 36px;
+    color: #F4F4F4;
+    font-family: 'shirota', arial;
+
+}
+.one {
+    position: absolute;
+    bottom: 2%;
+    left: 6%;
+
+}
+.two {
+    position: absolute;
+    left: 26%;
+    bottom: 2%;
+}
+.three {
+    position: absolute;
+    left: 76%;
+    bottom: 2%;
+}
+
+.game {
+    position: absolute;
+    top: 10%;
+}
+.firstg {
+    left:45px;
+}
+.secondg {
+    left: 27%;
+}
+.thirdg {
+    left: 52%;
+}
+.fourthg {
+    right: 45px
+}
+
+.igra1 {
+    top: 48%;
+    left: 7%;
+
+
+    position: absolute;
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 61px;
+    color: #F4F4F4;
+    font-family: 'shirota', arial;
+}
+.igra2 {
+    top: 48%;
+    left: 31%;
+
+    position: absolute;
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 61px;
+    color: #F4F4F4;
+    font-family: 'shirota', arial;
+}
+.igra3 {
+    top: 48%;
+    left: 56%;
+
+    position: absolute;
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 61px;
+    color: #F4F4F4;
+    font-family: 'shirota', arial;
+}
+.igra4 {
+    top: 48%;
+    left: 80%;
+
+    position: absolute;
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 61px;
+    color: #F4F4F4;
+    font-family: 'shirota', arial;
+}
+
+.line{
+    text-align: center;
+    position: absolute;
+    font-weight: 400;
+    font-size: 91px;
+    line-height: 226px;
+    color: #F4F4F4;
+    font-family: 'shirota', arial;
+    transform: translateX(-988px);
+
+    top:  65.5%;;
+    position: absolute;
+    display: block;
+    width: 1140px;
+    height: 226px;
+    background: #E25581;
+
+    animation: linerunning 8s linear infinite;
+}
+
+.linedog {
+    top: 59%;
+    position: absolute;
+    z-index: 1;
+    animation: linerunning 8s linear infinite;    
+}
+
+
+
+
+
+
+
+
+@keyframes appear {
+    0% {opacity: 0; left: 30%;}
+    50% {opacity: 1; left: 52%; }
+    100% {opacity: 0; left: 30%;}
+}
+
+@keyframes appearR {
+    0% {opacity: 0; left: 11%;}
+    50% {opacity: 1; left: 2%; }
+    100% {opacity: 0; left: 11%;}   
+}
+
+@keyframes runningcow {
+    0% {left:-100%;}
+    100% {left: 110%;}
+    
+}
+
+@keyframes runningcow2 {
+    0% {right:-100%;}
+    100% {right: 110%;}
+    
+}
+
+@keyframes linerunning {
+    0% {left:-100%;}
+    100% {left: 200%;}
+    
+}
