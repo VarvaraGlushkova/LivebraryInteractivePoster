@@ -113,12 +113,16 @@ section {
     left: 54%;
 }
 
+.jumpinganim {
+    animation: jumping 2s ease-out 0s 1 normal none;
 
-
-.pawshow {
-    opacity: 1;
-    transition: 0.3s;
 }
+
+
+
+
+
+
 
 .paws1 {
     position: absolute;
@@ -132,6 +136,7 @@ section {
  
 }
 
+
 .paw2 {
     position: absolute;
     right: 10%;
@@ -140,7 +145,7 @@ section {
 }
 .paw2c {
     position: absolute;
-    display: none;  
+    opacity: 0;  
 }
 
 .paw3 {
@@ -151,7 +156,7 @@ section {
 }
 .paw3c {
     position: absolute;
-    display: none;
+    opacity: 0;
 }
 
 .paws4 {
@@ -161,7 +166,7 @@ section {
 }
 .paws4c {
     position: absolute;  
-    display: none; 
+    opacity: 0; 
 }
 
 .paw5 {
@@ -171,7 +176,7 @@ section {
 }
 .paw5c{
     position: absolute;  
-    display: none;    
+    opacity: 0;    
 }
 
 .paw6 {
@@ -182,7 +187,7 @@ section {
 }
 .paw6c {
     position: absolute;  
-    display: none;   
+    opacity: 0;   
 }
 
 .text1 {
@@ -203,7 +208,7 @@ section {
 }
 .paw7c {
     position: absolute;  
-    display: none;   
+    opacity: 0;   
 }
 
 .paw8 {
@@ -214,7 +219,7 @@ section {
 }
 .paw8c {
     position: absolute;  
-    display: none;    
+    opacity: 0;    
 }
 
 .paw9 {
@@ -225,7 +230,7 @@ section {
 }
 .paw9c {
     position: absolute;  
-    display: none;    
+    opacity: 0;    
 }
 
 .paw10 {
@@ -236,7 +241,7 @@ section {
 }
 .paw10c {
     position: absolute;  
-    display: none;    
+    opacity: 0;    
 }
 
 .paw11 {
@@ -245,7 +250,12 @@ section {
 }
 .paw11c {
     position: absolute;  
-    display: none;    
+    opacity: 0;    
+}
+
+.pawshow {
+    opacity: 1;
+    transition: 0.3s;
 }
 
 .rowCow {
@@ -406,6 +416,11 @@ section {
     right: 0%;   
 }
 
+.pawshow {
+    opacity: 1;
+    transition: 0.3s;
+}
+
 .anim3 {
     height: 881px;
     width: 100vw;
@@ -419,7 +434,7 @@ section {
 .btTxt {
     position: absolute;
     font-weight: 400;
-    font-size: 31px;
+    font-size: 20px;
     line-height: 36px;
     color: #F4F4F4;
     font-family: 'shirota', arial;
@@ -533,6 +548,123 @@ section {
 }
 
 
+.sectionHide {
+    display: none;
+}
+
+.ShowSection {
+    position: absolute;
+    transition: all 0.5s;
+    display: block;
+    width: 100vw;
+    height: 800px;
+    overflow: hidden;
+}
+
+.IgraOdin {
+    transition: all 0.5s;
+    background-color: #BFDDDC;
+
+}
+
+
+
+.BunnyClean{
+    top: 20%;
+    left: 16%;
+    position: absolute;
+    transform: scale(0.8);
+}
+
+.flooring1 {
+    display: block;
+    height: 100px;
+    width: 100vw;
+    background-color: #833B59;
+}
+
+#draggable { 
+    position: absolute;
+    z-index: 1;
+
+}
+
+
+
+.Igrasection{
+    display: block;
+    width: 100vw;
+    height: 700px;
+}
+
+
+
+
+.IgraDva {
+    transition: all 0.5s;
+    background-color: #DFF1AA;
+
+}
+
+.arrBack {
+    top: 30%;
+    position: absolute;
+    left: 10%;
+}
+
+.Igrasection2 {
+    display: block;
+    width: 100vw;
+    height: 620px;
+}
+
+.flooring2 {
+    display: block;
+    height: 190px;
+    width: 100vw;
+    background-color: #5B2324;
+}
+
+.confBG {
+    position: absolute;
+    left: 14%;
+
+}
+
+.brush {
+    left: 87%;
+    position: relative;
+    top: 10%;
+}
+.drop {
+    top: 10%;
+    position: relative;
+}
+.arrClick1 {
+    left: 4%;
+    top: 30%;
+    position: absolute;
+
+}
+.arrClick2 {
+    left: 4%;
+    top: 50%;
+    position: absolute;
+
+}
+
+
+
+.leftstar{
+    position: absolute;
+}
+
+.rightstar {
+    left: 90%;
+    display: block;
+    position: absolute;
+}
+
 
 
 
@@ -568,3 +700,25 @@ section {
     100% {left: 200%;}
     
 }
+
+@keyframes jumping {
+	0% {animation-timing-function: ease-in; opacity: 1; transform: translateY(-250px);}
+
+	38% {animation-timing-function: ease-out; opacity: 1; transform: translateY(0);}
+
+	55% {animation-timing-function: ease-in; transform: translateY(-65px);}
+
+	72% {animation-timing-function: ease-out; transform: translateY(0);}
+
+	81% {animation-timing-function: ease-in; transform: translateY(-28px);}
+
+	90% {animation-timing-function: ease-out; transform: translateY(0);}
+
+	95% {animation-timing-function: ease-in; transform: translateY(-8px);}
+
+	100% {animation-timing-function: ease-out; transform: translateY(0);}
+}
+
+
+
+
