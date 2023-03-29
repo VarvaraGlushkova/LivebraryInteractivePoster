@@ -1,0 +1,196 @@
+@media only screen and (min-width: 1366px) and (max-width: 1439px) {
+    
+    .firstsection {
+        width: 100vw;
+        height: 770px; 
+    }
+    .blob {
+        position: absolute;
+        left: 23%;
+        top: 22%;
+
+    }
+    
+
+    .blobscale {
+        height:414px;
+        width: 725px;
+    }
+
+    .name1{
+        left: 13%;
+        top: 38%;
+        position: absolute;
+        font-weight: 400;
+        font-size: 95px;
+        line-height: 124px;
+    }
+
+    .conf1scale {
+        width: 1102px;
+        height: 724px;
+    }
+
+    .doggie1scale {
+        transform: scale(0.85);
+    }
+
+    .doggie1 {
+        z-index: -1;
+        position: absolute;
+        top: 25%;
+        left: 52%;
+        opacity: 0;
+    }
+
+    .rabbit1scale {
+        transform: scale(0.85);
+    }
+
+    .rabbit1 {
+        position: absolute;
+        z-index: -1;
+        top: 8%;
+        left:11%;
+        transform: rotate(9deg);
+    }
+
+    .text1 {
+        position: absolute;
+        left: 13%;
+        top: 5%;
+        font-weight: 400;
+        font-size: 43px;
+        line-height: 61px;
+        color: #F4F4F4;
+        font-family: 'shirota', arial;                                                
+    }
+
+    .b1 {
+        width: 100px;
+        height: 357px;
+        top: 31%;
+    }
+
+    .b2 {
+        width: 131px;
+        height: 277px;
+        top: 45.5%;
+    }
+
+    .b3 {
+        width: 100px;
+        height: 357px;
+        top: 31.5%;
+    }
+
+    .rowCow {
+        top: 51%;
+    }
+
+    .rowcowscale {
+        transform: scale(0.95);
+    }
+
+    .text2 {
+        left: 60%;
+        font-weight: 400;
+        font-size: 43px;
+        line-height: 61px;      
+    }
+
+    .b4 {
+        width: 126px;
+        height: 372px;
+        top: 44.7%;
+    }
+    .b5 {
+        width: 125px;
+        height: 372px;
+        top: 44.7%;  
+    }
+    .b6 {
+        width: 96px;
+        height: 340px;
+        left: 50%;
+        top: 49%;  
+    }
+    .b7 {
+        width: 96px;
+        height: 340px;
+        top: 49%;
+    }
+
+    .rowCowsecscale {
+        transform: scale(0.95);
+    }
+
+    .firstg {
+        width: 275px;
+        height: 330px;
+    }
+    .secondg {
+        width: 284px;
+        height: 330px;
+    }
+    .thirdg {
+        width: 284px;
+        height: 330px;
+    }
+    .fourthg {
+        width: 284px;
+        height: 330px;   
+    }
+
+    .igra1 {
+        top: 46%;
+        font-size: 50px;
+        line-height: 50px;
+    }
+    .igra2 {
+        top: 46%;
+        font-size: 50px;
+        line-height: 50px;       
+    }
+    .igra3 {
+        top: 46%;
+        font-size: 50px;
+        line-height: 50px;    
+    }
+    .igra4 {
+        top: 46%;
+        font-size: 50px;
+        line-height: 50px;        
+    }
+
+    .linedog {
+        width: 400px;
+        height: 271px; 
+        top: 61%; 
+    }
+
+    .line {
+        text-align: center;
+        position: absolute;
+        font-weight: 400;
+        font-size: 85px;
+        line-height: 204px;
+        color: #F4F4F4;
+        font-family: 'shirota', arial;
+        transform: translateX(-907px);
+        top: 67.5%;
+        position: absolute;
+        display: block;
+        width: 1046px;
+        height: 204px;
+        background: #E25581;
+        animation: linerunning 8s linear infinite;
+    }
+
+
+
+
+
+
+
+}

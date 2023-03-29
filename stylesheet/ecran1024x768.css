@@ -1,0 +1,576 @@
+@media only screen and (min-width: 1024px) and (max-width: 1279px) {
+    .blob {
+        position: absolute;
+        left: 23%;
+        top: 18%;
+    }
+    .blobscale {
+        width: 605px;
+        height: 345px;
+    }
+
+    .polka {
+        width: 100vw;
+        height: 27px;
+        background-color: #5B2324;
+    }
+
+    .firstsection {
+        width: 100vw;
+        height: 717px;
+    }
+
+    .conf1scale {
+        width: 919px;
+        height: 604px;
+    }
+    .conf1 {
+        position: absolute;
+        left: 7%;
+        z-index: -2;
+    }
+
+    .name1 {
+        top: 10%;
+        position: absolute;
+        font-family: 'Singly Linked';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 78px;
+        line-height: 300px;
+        left: 12%;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+
+    .doggie1 {
+        transform: scale(0.75);
+        z-index: -1;
+        position: absolute;
+        top: 17%;
+        left: 52%;
+        opacity: 0;
+    }
+
+    .rabbit1scale {
+
+        transform: scale(0.75);
+    }
+    .rabbit1 {
+        position: absolute;
+        z-index: -1;
+        top: 5%;
+        left: 11%;
+        opacity: 0;
+        transform: rotate(12deg);
+    }
+
+    .rowCow  {
+        top: 43%;
+    }
+
+    .rowcowscale {
+        transform: scale(0.75);
+    }
+
+    .b1 {
+        display: none;
+    }
+    .b2 {
+        top: 40%;
+        width: 109px;
+        height: 231px;       
+    }
+    .b3 {
+        top: 29%;
+        width: 83px;
+        height: 298px;
+        left: 55%;       
+    }
+
+    .anim1 {
+        width: 100vw;
+        height: 455px;
+    }
+
+    .text1 {
+        left: 9%;
+        top: 5%;
+        font-weight: 400;
+        font-size: 35px;
+        line-height: 61px;
+    }
+
+    .paws1c, .paw2c, .paw3c, .paws4c, .paw5c, .paw6c, 
+    .paw7c, .paw8c, .paw9c, .paw10c {
+        z-index: 2;
+    }
+
+     .pawclick1, .paws1c, .pawclick2, .paw2c, 
+     .paw3c, .pawclick3, .pawclick4, .paws4c,
+     .paw5c, .pawclick5, .paw6c, .pawclick6, 
+     .paw7c, .pawclick7, .paw8c, .paw9c, .pawclick9, 
+     .paw10c, .pawclick10  {
+        transform: scale(0.8);
+    }
+
+    .paws1 {
+        left: 80%;
+    }
+
+    .paws4 {
+        left: 65%;
+    }
+
+    .anim2 {
+        width: 100vw;
+        height: 481px;
+    }
+
+    .text2 {
+        top: 2%;
+        font-weight: 400;
+        font-size: 35px;
+        line-height: 61px;
+    }
+
+
+    .rowCowsecscale {
+        transform: scale(0.75);
+    }
+
+    .rowCow2 {
+        top: 52%;
+    }
+
+    .b4 {
+        display: none;
+    }
+    .b5 {
+        z-index: 3;
+        top: 34%;
+        width: 105px;
+        height: 310px;
+    }
+    .b6 {
+        z-index: 3;
+        left: 51%;
+        top: 39.5%;
+        width: 80px;
+        height: 283px;
+    }
+    .b7 {
+        z-index: 3;
+        top: 39.5%;
+        width: 80px;
+        height: 283px;
+    } 
+    
+    .Secpaw1c, .Secpaw2c, .Secpaw3c, .Secpaw4c, .Secpaw5c,
+    .Secpaw6c, .Secpaw7c, .Secpaw8c, .Secpaw9c, .Secpaw10c,
+    .Secpaw11c, .Secpaw12c, .Secpaw13c, .Secpaw14c, .Secpaw15c, .Secpaw16c,
+    .Secpaw17c, .Secpaw18c {
+        z-index: 2;
+    }
+    .Secpaw1c, .Secp1, .Secpaw2c, .Secp2, .Secpaw3c, 
+    .Secp3, .Secpaw4c, .Secp4, .Secpaw5c, .Secp5, .Secpaw6c,
+    .Secp6, .Secpaw7c, .Secp7, .Secpaw8c, .Secp8, .Secpaw9c, 
+    .Secp9, .Secpaw10c, .Secp10, .Secpaw11c, .Secp11, .Secp12, .Secpaw12c,
+    .Secpaw13c, .Secp13, .Secp14, .Secpaw14c, .Secpaw15c, .Secp15, .Secpaw16c, 
+    .Secp16, .Secpaw17c, .Secp17, .Secpaw18c, .Secp18 {
+        transform: scale(0.8);
+   
+    }
+
+    .Secpaw1 {
+        position: absolute;
+        top: 21%;
+        left: 3%;
+
+    }
+    .Secpaw2 {
+        position: absolute;
+        top: 11%;
+        left: 4%;       
+    }
+    .Secpaw3 {
+        position: absolute;
+        top: 12%;
+        left: 12%;       
+    }
+    .Secpaw4 {
+        position: absolute;
+        top: 28%;
+        left: 18%;       
+    }
+    .Secpaw5 {
+        position: absolute;
+        top: 13%;
+        left: 21%;        
+    }
+    .Secpaw6 {
+        position: absolute;
+        top: 26%;
+        left: 26%;       
+    }
+    .Secpaw7 {
+        position: absolute;
+        top: 21%;
+        left: 33%;       
+    }
+    .Secpaw8 {
+        position: absolute;
+        top: 38%;
+        left: 34%;       
+    }
+    .Secpaw12 {
+        position: absolute;
+        top: 28%;
+        right: 36%;      
+    }
+    .Secpaw13 {
+        position: absolute;
+        top: 40%;
+        right: 28%;     
+    }
+    .Secpaw14 {
+        position: absolute;
+        top: 35%;
+        right: 22%;     
+    }
+    .Secpaw15 {
+        position: absolute;
+        top: 47%;
+        right: 19%;     
+    }
+    .Secpaw16 {
+        position: absolute;
+        top: 37%;
+        right: 12%;     
+    }
+
+    .anim3 {
+        height: 1080px;
+        width: 100vw;
+    }
+
+    
+
+    .firstg {
+        left: 24%;
+        width: 230px;
+        height: 275px;
+    }
+    .igra1{
+        top: 34%;
+        left: 27.5%;
+        position: absolute;
+        font-weight: 400;
+        font-size: 43px;
+        line-height: 61px;
+        color: #F4F4F4;
+        font-family: 'shirota', arial;
+    }
+
+    .secondg {
+        left: 56%;
+        width: 230px;
+        height: 275px;
+    }
+    .igra2{
+        top: 34%;
+        left: 60%;
+        position: absolute;
+        font-weight: 400;
+        font-size: 43px;
+        line-height: 61px;
+        color: #F4F4F4;
+        font-family: 'shirota', arial;
+    }
+    
+    .thirdg {
+        top: 41%;
+        width: 230px;
+        height: 275px;
+        left: 24%;
+    }
+    .igra3 {
+        top: 65%;
+        left: 28%;
+        position: absolute;
+        font-weight: 400;
+        font-size: 43px;
+        line-height: 61px;
+        color: #F4F4F4;
+        font-family: 'shirota', arial;
+    }
+
+
+    .fourthg{
+        left: 56%;
+        top: 41%;
+        width: 230px;
+        height: 275px;
+    }
+    .igra4 {
+        top: 65%;
+        left: 60%;
+        position: absolute;
+        font-weight: 400;
+        font-size: 43px;
+        line-height: 61px;
+        color: #F4F4F4;
+        font-family: 'shirota', arial;
+    }
+
+    .linedog {
+        top: 71%;
+        width: 333px;
+        height: 226px;
+    }
+    .line {
+        text-align: center;
+        font-weight: 400;
+        font-size: 67px;
+        line-height: 203px;
+        color: #F4F4F4;
+        font-family: 'shirota', arial;
+        transform: translateX(-701px);
+        top: 73%;
+        position: absolute;
+        display: block;
+        width: 804px;
+        height: 203px;
+        background: #E25581;
+        animation: linerunning 8s linear infinite;
+    }
+
+    .leftstar {
+        top: -3%;
+        transform: scale(0.8);
+        position: absolute;
+        left: -2%;
+    }
+
+    .rightstar {
+        top: -3%;
+        transform: scale(0.8);
+        left: 90%;
+        display: block;
+        position: absolute;
+    }
+
+    .zagolovok1 {
+        top: 6%;
+        position: absolute;
+        font-weight: 400;
+        font-size: 42px;
+        line-height: 40px;
+        color: #F4F4F4;
+        font-family: 'shirota', arial;
+        left: 24%;
+    }
+
+    .BunnyClean {
+        top: 20%;
+        left: 0%;
+        position: absolute;
+        transform: scale(0.7);
+    }
+
+    .dirt1, .dirt2, .dirt3, .dirt4, .dirt5, .dirt6, .dirt7 {
+        transform: scale(0.7);
+    }
+
+    .zagolovok2 {
+        z-index: 1;
+        top: 6%;
+        position: absolute;
+        font-weight: 400;
+        font-size: 42px;
+        line-height: 40px;
+        color: #F4F4F4;
+        font-family: 'shirota', arial;
+        left: 27%;
+    }
+
+    .Canvas {
+        z-index: 3;
+        left: 32.2%;
+        display: block;
+        position: absolute;
+        top: 29%;
+        transform: scale(0.89);
+    }
+
+    .nogi {
+        z-index: 4;
+        position: absolute;
+        transform: scale(0.71);
+        top: 60%;
+        left: 26%;
+        display: block;
+    }
+
+    .label {
+        left: 61%;
+        position: absolute;
+        display: block;
+        transform: scale(0.7);
+        z-index: 4;
+        top: 30%;
+    }
+
+    .confBG {
+        transform: scale(0.7);
+        position: absolute;
+        left: 1%;
+    }
+
+    .hvost1 {
+        transform: scale(0.8);
+    }
+    .hvost2 {
+        transform: scale(0.8);
+      
+    }
+    .hvost3 {
+        transform: scale(0.3);
+   
+    }
+
+    .ushi1 {
+        transform: scale(0.6);
+        position: absolute;
+        left: 58%;
+        top: 17%;
+    }
+    .ushi3 {
+        top: 23%;
+        left: 54%;
+        position: absolute;
+        transform: scale(0.8);       
+    }
+
+    .arrClick1 {
+        transform: scale(0.8);
+    }
+    .arrClick2 {
+        transform: scale(0.8);       
+    }
+    .arrClick3 {
+        transform: scale(0.8);       
+    }
+    .arrClick4 {
+        transform: scale(0.8);     
+    }
+
+    .cards {
+        width: 100vw;
+        height: 100vw;
+        transform: scale(0.7);
+    }
+
+    .flip-card1 {
+        left: -0.5%;
+        top: 1%;
+        position: absolute;
+        display: block;
+        background-color: transparent;
+        width: 344px;
+        height: 217px;
+    }
+
+    .flip-card2 {
+        top: 1%;
+        left: 37%;
+        position: absolute;
+        display: block;
+        background-color: transparent;
+        width: 344px;
+        height: 217px;
+    }
+
+    .flip-card3 {
+        top: 1%;
+        left: 74%;
+        position: absolute;
+        display: block;
+        background-color: transparent;
+        width: 344px;
+        height: 217px;
+    }
+
+    .flip-card4 {
+        top: 24%;
+        left: -0.5%;
+        position: absolute;
+        display: block;
+        background-color: transparent;
+        width: 344px;
+        height: 217px;
+    }
+
+    .flip-card5 {
+        top: 24%;
+        left: 37%;
+        position: absolute;
+        display: block;
+        background-color: transparent;
+        width: 344px;
+        height: 217px;
+    }
+
+    .flip-card6 {
+        top: 24%;
+        left: 74%;
+        position: absolute;
+        display: block;
+        background-color: transparent;
+        width: 344px;
+        height: 217px;
+    }
+
+    .flip-card7 {
+        top: 47%;
+        left: -0.5%;
+        position: absolute;
+        display: block;
+        background-color: transparent;
+        width: 344px;
+        height: 217px;
+    }
+
+    .flip-card8 {
+        top: 47%;
+        left: 37%;
+        position: absolute;
+        display: block;
+        background-color: transparent;
+        width: 344px;
+        height: 217px;
+    }
+
+    .flip-card9 {
+        top: 47%;
+        left: 74%;
+        position: absolute;
+        display: block;
+        background-color: transparent;
+        width: 344px;
+        height: 217px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+    
+}

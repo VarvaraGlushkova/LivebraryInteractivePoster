@@ -1,0 +1,374 @@
+@media only screen and (min-width: 1729px) and (max-width: 1920px) {
+    
+    .blobscale {
+        height: 538px;
+        width: 943px;
+
+    }
+    .blob {
+        position: absolute;
+        left: 27%;
+        top: 22%;
+    }
+
+    .conf1scale {
+        width: 1433px;
+        height: 942px;
+    }
+    .conf1 {
+        position: absolute;
+        left: 13%;
+        z-index: -2;
+    }
+
+    .firstsection {
+        width: 100vw;
+        height: 988px;
+    }
+
+    .name1 {
+        font-family: 'Singly Linked';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 127px;
+        line-height: 446px;
+        left: 10%;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        top: 10%;
+    }
+
+    .doggie1scale {
+        transform: scale(1);
+    }
+
+    .doggie1 {
+        z-index: -1;
+        position: absolute;
+        top: 32%;
+        left: 52%;
+        opacity: 0;
+    }
+
+    @keyframes appear {
+        0% {opacity: 0; left: 30%;}
+        50% {opacity: 1; left: 60%; }
+        100% {opacity: 0; left: 30%;}
+    }
+    
+    @keyframes appearR {
+        0% {opacity: 0; left: 16%;}
+        50% {opacity: 1; left: 12%; }
+        100% {opacity: 0; left: 16%;}   
+    }
+
+    .paws1c, .paw2c, .paw3c, .paws4c, .paw5c, .paw6c, 
+    .paw7c, .paw8c, .paw9c, .paw10c {
+        z-index: 2;
+    }
+
+     .pawclick1, .paws1c, .pawclick2, .paw2c, 
+     .paw3c, .pawclick3, .pawclick4, .paws4c,
+     .paw5c, .pawclick5, .paw6c, .pawclick6, 
+     .paw7c, .pawclick7, .paw8c, .paw9c, .pawclick9, 
+     .paw10c, .pawclick10  {
+        transform: scale(1.2);
+    }
+
+    .text1 {
+        position: absolute;
+        left: 9%;
+        font-weight: 400;
+        font-size: 61px;
+        line-height: 61px;
+        color: #F4F4F4;
+        font-family: 'shirota', arial;
+    }
+
+    .b1 {
+        top: 12%;
+        width: 130px;
+        height: 464px;
+    }
+
+    .b2 {
+        z-index: 3;
+        top: 31%;
+        width: 169px;
+        height: 361px;
+    }
+
+    .b3 {
+        top: 13%;
+        left: 53%;
+        width: 130px;
+        height: 464px;
+    }
+
+    .rowcowscale {
+        transform: scale(1.2);
+    }
+    .rowCow {
+        top: 46%;
+    }
+
+
+
+    .Secpaw1c, .Secpaw2c, .Secpaw3c, .Secpaw4c, .Secpaw5c,
+    .Secpaw6c, .Secpaw7c, .Secpaw8c, .Secpaw9c, .Secpaw10c,
+    .Secpaw11c, .Secpaw12c, .Secpaw13c, .Secpaw14c, .Secpaw15c, .Secpaw16c,
+    .Secpaw17c, .Secpaw18c {
+        z-index: 2;
+    }
+    .Secpaw1c, .Secp1, .Secpaw2c, .Secp2, .Secpaw3c, 
+    .Secp3, .Secpaw4c, .Secp4, .Secpaw5c, .Secp5, .Secpaw6c,
+    .Secp6, .Secpaw7c, .Secp7, .Secpaw8c, .Secp8, .Secpaw9c, 
+    .Secp9, .Secpaw10c, .Secp10, .Secpaw11c, .Secp11, .Secp12, .Secpaw12c,
+    .Secpaw13c, .Secp13, .Secp14, .Secpaw14c, .Secpaw15c, .Secp15, .Secpaw16c, 
+    .Secp16, .Secpaw17c, .Secp17, .Secpaw18c, .Secp18 {
+        transform: scale(1.2);
+   
+    }
+
+    .text2 {
+        position: absolute;
+        left: 55%;
+        top: 23%;
+        font-weight: 400;
+        font-size: 61px;
+        line-height: 61px;
+        color: #F4F4F4;
+        font-family: 'shirota', arial;       
+    }
+
+    .b4 {
+        top: 30%;
+        width: 165px;
+        height: 483px;
+    }
+    .b5 {
+        top: 30%;
+        left: 37%;
+        width: 163px;
+        height: 483px;
+    }
+    .b6 {
+        left: 45%;
+        top: 36%;
+        width: 123px;
+        height: 442px;      
+    }
+    .b7 {
+        top: 35%;
+        right: 10%;
+        width: 125px;
+        height: 442px;       
+    }
+
+    .rowCowsecscale {
+        transform: scale(1.2);
+    }
+
+    .rowCow2 {
+        top: 58%;
+    }
+
+    .thirdg {
+        left: 55%;
+    }
+
+    .igra3 {
+        top: 48%;
+        left: 58%;
+        position: absolute;
+        font-weight: 400;
+        font-size: 52px;
+        line-height: 61px;
+        color: #F4F4F4;
+        font-family: 'shirota', arial;
+    }
+
+    .igra4 {
+        top: 48%;
+        left: 85%;
+        position: absolute;
+        font-weight: 400;
+        font-size: 52px;
+        line-height: 61px;
+        color: #F4F4F4;
+        font-family: 'shirota', arial;
+    }
+
+    .BunnyClean {
+        top: 31%;
+        left: 25%;
+        position: absolute;
+        transform: scale(1.1);
+    }
+
+    .dirt1, .dirt2, .dirt3, .dirt4, .dirt5, .dirt6, .dirt7 {
+        transform: scale(1.1);
+    } 
+
+    .Igrasection {
+        display: block;
+        width: 100vw;
+        height: 969px;
+    }
+    
+    .zagolovok1 {
+        top: 6%;
+        position: absolute;
+        font-weight: 400;
+        font-size: 66px;
+        line-height: 40px;
+        color: #F4F4F4;
+        font-family: 'shirota', arial;
+        left: 27%;
+    }
+
+    .flooring1 {
+        display: block;
+        height: 113px;
+        width: 100vw;
+        background-color: #833B59;
+    }
+
+    .rightstar {
+        left: 92%;
+        display: block;
+        position: absolute;
+    }
+
+    .Igrasection2 {
+        display: block;
+        width: 100vw;
+        height: 894px;
+    }
+
+    .nogi {
+        z-index: 4;
+        position: absolute;
+        transform: scale(1);
+        top: 67%;
+        left: 34%;
+        display: block;
+    }
+
+    .Canvas {
+        transform: scale(1.25);
+        z-index: 3;
+        left: 37.4%;
+        display: block;
+        position: absolute;
+        top: 36%;
+    }
+
+    .confBG {
+        top: 17%;
+        position: absolute;
+        left: 22%;
+    }
+
+    .hvost1 {
+        position: absolute;
+        top: 24%;
+        left: 21%;
+        z-index: 1;
+        transform: scale(1.2);
+    } 
+
+    .ushi1 {
+        transform: scale(0.9);
+        position: absolute;
+        left: 53%;
+        top: 25%;
+    }
+
+    .ushi3 {
+        transform: scale(1.2);
+        top: 32%;
+        left: 50.6%;
+        position: absolute;
+    }
+    
+    .hvost2 {
+        transform: scale(1.2);
+        z-index: 1;
+        position: absolute;
+        left: 18%;
+        top: 39%;
+    }
+
+    .hvost3 {
+        left: 24%;
+        position: absolute;
+        transform: scale(0.4);
+        top: 39%;
+        z-index: 1;
+    }
+
+
+    .zagolovok2 {
+        z-index: 1;
+        top: 6%;
+        position: absolute;
+        font-weight: 400;
+        font-size: 66px;
+        line-height: 40px;
+        color: #F4F4F4;
+        font-family: 'shirota', arial;
+        left: 29%;
+    }
+
+    .label {
+        left: 57%;
+        position: absolute;
+        display: block;
+        transform: scale(1);
+        z-index: 4;
+        top: 36%;
+    }
+
+    .arrClick1, .arrClick2, .arrClick3, .arrClick4 {
+        transform: scale(1.2);
+    }
+    
+    .zagolovok3 {
+        z-index: 1;
+        top: 6%;
+        position: absolute;
+        font-weight: 400;
+        font-size: 66px;
+        line-height: 40px;
+        color: #F4F4F4;
+        font-family: 'shirota', arial;
+        left: 38%;
+    }
+
+    .cards {
+        left: 14%;
+        height: 50vw;
+        top: 10%;
+        width: 75vw;
+        position: absolute;
+    }
+
+    .ShowSection {
+        position: absolute;
+        display: block;
+        width: 100vw;
+        height: 1080px;
+        overflow: hidden;
+    }
+
+
+
+
+
+
+
+
+
+}

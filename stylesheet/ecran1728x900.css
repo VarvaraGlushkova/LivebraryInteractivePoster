@@ -1,0 +1,196 @@
+@media only screen and (min-width: 1728px) and (max-width: 1919px) {
+
+    .blobscale {
+        height: 538px;
+        width: 943px;
+
+
+
+    }
+    .conf1scale {
+        width: 1433px;
+        height: 942px;
+    }
+
+    .firstsection {
+        width: 100vw;
+        height: 958px;
+    }
+
+    .name1 {
+        position: absolute;
+        font-family: 'Singly Linked';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 133px;
+        line-height: 133px;
+        left: 10%;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        top: 36%;
+    }
+
+    .doggie1scale {
+        transform: scale(1.1);
+    }
+
+    .b3 {
+        left: 53%;
+    }
+    
+
+    .paws1c, .paw2c, .paw3c, .paws4c, .paw5c, .paw6c, 
+    .paw7c, .paw8c, .paw9c, .paw10c {
+        z-index: 2;
+    }
+
+     .pawclick1, .paws1c, .pawclick2, .paw2c, 
+     .paw3c, .pawclick3, .pawclick4, .paws4c,
+     .paw5c, .pawclick5, .paw6c, .pawclick6, 
+     .paw7c, .pawclick7, .paw8c, .paw9c, .pawclick9, 
+     .paw10c, .pawclick10  {
+        transform: scale(1.2);
+    }
+
+
+    .Secpaw1c, .Secpaw2c, .Secpaw3c, .Secpaw4c, .Secpaw5c,
+    .Secpaw6c, .Secpaw7c, .Secpaw8c, .Secpaw9c, .Secpaw10c,
+    .Secpaw11c, .Secpaw12c, .Secpaw13c, .Secpaw14c, .Secpaw15c, .Secpaw16c,
+    .Secpaw17c, .Secpaw18c {
+        z-index: 2;
+    }
+    .Secpaw1c, .Secp1, .Secpaw2c, .Secp2, .Secpaw3c, 
+    .Secp3, .Secpaw4c, .Secp4, .Secpaw5c, .Secp5, .Secpaw6c,
+    .Secp6, .Secpaw7c, .Secp7, .Secpaw8c, .Secp8, .Secpaw9c, 
+    .Secp9, .Secpaw10c, .Secp10, .Secpaw11c, .Secp11, .Secp12, .Secpaw12c,
+    .Secpaw13c, .Secp13, .Secp14, .Secpaw14c, .Secpaw15c, .Secp15, .Secpaw16c, 
+    .Secp16, .Secpaw17c, .Secp17, .Secpaw18c, .Secp18 {
+        transform: scale(1.2);
+   
+    }
+
+    .b6 {
+        left: 48.7%;
+    }
+
+    .BunnyClean {
+        top: 20%;
+        left: 20%;
+        position: absolute;
+        transform: scale(0.9);
+    }
+
+    .Igrasection {
+        display: block;
+        width: 100vw;
+        height: 802px;
+    }
+
+    .rightstar {
+        left: 91%;
+        display: block;
+        position: absolute;
+    }
+
+
+    .nogi {
+        top: 66%;
+        left: 31%;
+    }
+
+    .Canvas {
+        z-index: 3;
+        left: 34.8%;
+        display: block;
+        position: absolute;
+        top: 38%;
+    }
+
+    .hvost1 {
+        position: absolute;
+        top: 29%;
+        left: 19%;
+        z-index: 1;
+    }
+
+    .hvost2 {
+        z-index: 1;
+        position: absolute;
+        left: 19%;
+        top: 41%;
+    }
+
+    .hvost3 {
+        left: 24%;
+        position: absolute;
+        transform: scale(0.3);
+        top: 41%;
+        z-index: 1;
+    }
+
+    .ushi1 {
+        transform: scale(0.7);
+        position: absolute;
+        left: 53%;
+        top: 29%;
+    }
+
+    .ushi3 {
+        top: 36%;
+        left: 47.5%;
+        position: absolute;
+    }
+
+    .confBG {
+        top: 12%;
+        position: absolute;
+        left: 18%;
+    }
+
+    .Igrasection2 {
+        display: block;
+        width: 100vw;
+        height: 798px;
+    }
+
+    .zagolovok2 {
+        z-index: 1;
+        top: 6%;
+        position: absolute;
+        font-weight: 400;
+        font-size: 66px;
+        line-height: 40px;
+        color: #F4F4F4;
+        font-family: 'shirota', arial;
+        left: 27%;
+    }
+
+    .label {
+        left: 54%;
+        position: absolute;
+        display: block;
+        transform: scale(0.8);
+        z-index: 4;
+        top: 38%;
+    }
+
+    .cards {
+        left: 9%;
+        width: 84vw;
+        position: absolute;
+        height: 53vw;
+        top: 3%;
+    }
+
+
+    .ShowSection {
+        position: absolute;
+        display: block;
+        width: 100vw;
+        height: 986px;
+        overflow: hidden;
+    }
+
+
+}

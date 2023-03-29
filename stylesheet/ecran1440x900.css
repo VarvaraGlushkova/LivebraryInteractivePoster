@@ -8,7 +8,6 @@ section {
 }
 .firstsection {
     width: 100vw;
-    /* или 38 в вьюпортах если я посчитала правильно? */
     height: 823px; 
 }
 
@@ -316,52 +315,109 @@ section {
     top: 47%;
     left: 3%;
 }
+
+.Secpaw1c {
+    position: absolute;  
+    opacity: 0;    
+}
+
+
 .Secpaw2 {
     position: absolute;
     top: 37%;
     left: 4%;
-    
 }
+.Secpaw2c {
+    position: absolute;  
+    opacity: 0;
+}
+
 .Secpaw3 {
     position: absolute;
     top: 30%;
     left: 15%;
     
 }
+.Secpaw3c {
+    position: absolute;  
+    opacity: 0;
+}
+
 .Secpaw4 {
     position: absolute;
     top: 43%;
     left: 20%;    
 }
+.Secpaw4c {
+    position: absolute;  
+    opacity: 0;
+}
+
+
 .Secpaw5 {
     position: absolute;
     top: 30%;
     left: 23%;    
 }
+.Secpaw5c {
+    position: absolute;  
+    opacity: 0;
+}
+
+
+
 .Secpaw6 {
     position: absolute;
     top: 43%;
     left: 26%; 
 }
+.Secpaw6c {
+    position: absolute;  
+    opacity: 0;
+}
+
+
 .Secpaw7 {
     position: absolute;
     top: 31%;
     left: 31%;
 }
+.Secpaw7c {
+    position: absolute;  
+    opacity: 0;
+}
+
+
 .Secpaw8 {
     position: absolute;
     top: 41%;
     left: 34%;
 }
+.Secpaw8c {
+    position: absolute;  
+    opacity: 0;
+}
+
+
 .Secpaw9 {
     position: absolute;
     top: 27%;
     left: 37%;
 }
+.Secpaw9c {
+    position: absolute;  
+    opacity: 0;
+}
+
+
 .Secpaw10 {
     position: absolute;
     top: 27%;
     left: 46%;   
+}
+.Secpaw10c {
+    position: absolute;  
+    opacity: 0;
 }
 
 .text2 {
@@ -380,40 +436,85 @@ section {
     top: 38%;
     left: 50%;
 }
+.Secpaw11c {
+    position: absolute;  
+    opacity: 0;
+}
+
+
 .Secpaw12 {
     position: absolute;
     top: 44%;
     right: 36%;   
 }
+.Secpaw12c {
+    position: absolute;  
+    opacity: 0;
+}
+
 .Secpaw13 {
     position: absolute;
     top: 44%;
     right: 27%;    
 }
+.Secpaw13c {
+    position: absolute;  
+    opacity: 0;
+}
+
+
 .Secpaw14 {
     position: absolute;
     top: 40%;
     right: 22%;    
 }
+.Secpaw14c {
+    position: absolute;  
+    opacity: 0;
+}
+
+
 .Secpaw15 {
     position: absolute;
     top: 47%;
     right: 17%;   
 }
+.Secpaw15c {
+    position: absolute;  
+    opacity: 0;
+}
+
+
 .Secpaw16 {
     position: absolute;
     top: 47%;
     right: 10%;   
 }
+.Secpaw16c {
+    position: absolute;  
+    opacity: 0;
+}
+
+
 .Secpaw17 {
     position: absolute;
     top: 47%;
     right: 5%;      
 }
+.Secpaw17c {
+    position: absolute;  
+    opacity: 0;
+}
+
+
 .Secpaw18 {
     position: absolute;
     top: 35%;
     right: 0%;   
+}
+.Secpaw18c {
+    position: absolute;  
+    opacity: 0;
 }
 
 .pawshow {
@@ -554,7 +655,6 @@ section {
 
 .ShowSection {
     position: absolute;
-    transition: all 0.5s;
     display: block;
     width: 100vw;
     height: 800px;
@@ -565,6 +665,12 @@ section {
     transition: all 0.5s;
     background-color: #BFDDDC;
 
+}
+
+.arrowBack {
+    top: 30%;
+    position: absolute;
+    left: 10%;
 }
 
 
@@ -583,11 +689,54 @@ section {
     background-color: #833B59;
 }
 
-#draggable { 
+.dirt1 {
+    top: 31%;
+    left: 28%;
+}
+.dirt2 {
+    top: 39%;
+    left: 56%;
+}
+.dirt3 {
+    top: 47%;
+    left: 30%;
+}
+.dirt4 {
+    top: 50%;
+    left: 45%; 
+}
+.dirt5 {
+    top: 60%;
+    left: 60%;
+}
+.dirt6 {
+    left: 40%;
+    top: 30%;
+}
+.dirt7 {
+    top: 60%;
+    left: 35%;
+}
+
+.zagolovok1 {
+    top: 6%;
+    position: absolute;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 40px;
+    color: #F4F4F4;
+    font-family: 'shirota', arial;
+    left: 27%;   
+}
+
+
+.draggable { 
     position: absolute;
     z-index: 1;
 
 }
+
+
 
 
 
@@ -602,7 +751,7 @@ section {
 
 .IgraDva {
     transition: all 0.5s;
-    background-color: #DFF1AA;
+    background-color: #b8ce75;
 
 }
 
@@ -641,17 +790,483 @@ section {
     position: relative;
 }
 .arrClick1 {
+    z-index: 1;
     left: 4%;
     top: 30%;
     position: absolute;
 
 }
 .arrClick2 {
+    z-index: 1;
     left: 4%;
     top: 50%;
     position: absolute;
 
 }
+.arrClick3 {
+    z-index: 1;
+    left: 87%;
+    top: 30%;
+    position: absolute;
+}
+.arrClick4 {
+    z-index: 1;
+    left: 87%;
+    top: 50%;
+    position: absolute;
+}
+
+
+.nogi {
+    z-index: 4;
+    position: absolute;
+    transform: scale(0.8);
+    top: 60%;
+    left: 28%;
+    display: block;    
+}
+
+.zagolovok2 {
+    z-index: 1;
+    top: 6%;
+    position: absolute;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 40px;
+    color: #F4F4F4;
+    font-family: 'shirota', arial;
+    left: 27%;   
+}
+
+.Canvas {
+    z-index: 3;
+    left: 32.5%;
+    display: block;
+    position: absolute;
+    top: 26%;
+}
+
+
+.hvost{
+    height: 353px;
+    width: 313px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    position: relative;
+    z-index: 5;
+}
+
+.hvost1 {
+    background-image: url("../images/hvost1.svg");
+    position: absolute;
+    top: 15%;
+    left: 13%;
+    z-index: 1;
+}
+
+.hvost2 {
+    background-image: url("../images/hvost2.svg");
+    z-index: 1;
+    position: absolute;
+    left: 12%;
+    top: 30%;
+}
+
+.hvost3 {
+    background-image: url("../images/hvost3.svg");
+    left: 19%;
+    position: absolute;
+    transform: scale(0.3);
+    top: 30%;
+    z-index: 1;
+}
+
+.label {
+    left: 54%;
+    position: absolute;
+    display: block;
+    transform: scale(0.8);
+    z-index: 4;
+    top: 27%;   
+}
+
+.ushi {
+    height: 334px;
+    width: 274px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    position: relative;
+    z-index: 5;    
+}
+
+.ushi1{
+    background-image: url("../images/ushi1.svg");
+    transform: scale(0.7);
+    position: absolute;
+    left: 53%;
+    top: 13%;   
+}
+
+.ushi3{
+    background-image: url("../images/ushi3.svg");
+    top: 23%;
+    left: 50%;
+    position: absolute;
+}
+
+
+
+
+
+
+
+.IgraTri {
+    transition: all 0.5s;
+    background-color: #FDC584;
+
+}
+
+
+.zagolovok3 {
+    z-index: 1;
+    top: 6%;
+    position: absolute;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 40px;
+    color: #F4F4F4;
+    font-family: 'shirota', arial;
+    left: 38%;   
+}
+
+
+
+.flip-card1 {
+    top: 14%;
+    left: 10%;
+    position: absolute;
+    display: block;
+    background-color: transparent;
+    width: 344px;
+    height: 217px;
+}
+  
+  .flip-card-inner1 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+  
+  .flip-card-front1, .flip-card-back1 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+}
+  .flip-card-front1 {
+    color: black;
+}
+  .flip-card-back1 {
+    transform: rotateY(180deg);
+}
+
+
+
+.flip-card2 {
+    top: 14%;
+    left: 37%;
+    position: absolute;
+    display: block;
+    background-color: transparent;
+    width: 344px;
+    height: 217px;
+}
+  
+  .flip-card-inner2 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+  
+  .flip-card-front2, .flip-card-back2 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+}
+  .flip-card-front2 {
+    color: black;
+}
+  .flip-card-back2 {
+    transform: rotateY(180deg);
+}
+
+
+
+
+.flip-card3 {
+    top: 14%;
+    left: 64%;
+    position: absolute;
+    display: block;
+    background-color: transparent;
+    width: 344px;
+    height: 217px;
+}
+  
+  .flip-card-inner3 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+  
+  .flip-card-front3, .flip-card-back3 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+}
+  .flip-card-front3 {
+    color: black;
+}
+  .flip-card-back3 {
+    transform: rotateY(180deg);
+}
+
+
+.flip-card4 {
+    top: 42%;
+    left: 10%;
+    position: absolute;
+    display: block;
+    background-color: transparent;
+    width: 344px;
+    height: 217px;
+}
+  
+  .flip-card-inner4 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+  
+  .flip-card-front4, .flip-card-back4 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+}
+  .flip-card-front4 {
+    color: black;
+}
+  .flip-card-back4 {
+    transform: rotateY(180deg);
+}
+
+
+
+
+.flip-card5 {
+    top: 42%;
+    left: 37%;
+    position: absolute;
+    display: block;
+    background-color: transparent;
+    width: 344px;
+    height: 217px;
+}
+  
+  .flip-card-inner5 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+  
+  .flip-card-front5, .flip-card-back5 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+}
+  .flip-card-front5 {
+    color: black;
+}
+  .flip-card-back5 {
+    transform: rotateY(180deg);
+}
+
+
+
+.flip-card6 {
+    top: 42%;
+    left: 64%;
+    position: absolute;
+    display: block;
+    background-color: transparent;
+    width: 344px;
+    height: 217px;
+}
+  
+  .flip-card-inner6 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+  
+  .flip-card-front6, .flip-card-back6 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+}
+  .flip-card-front6 {
+    color: black;
+}
+  .flip-card-back6 {
+    transform: rotateY(180deg);
+}
+
+
+
+.flip-card7 {
+    top: 70%;
+    left: 10%;
+    position: absolute;
+    display: block;
+    background-color: transparent;
+    width: 344px;
+    height: 217px;
+}
+  
+  .flip-card-inner7 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+  
+  .flip-card-front7, .flip-card-back7 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+}
+  .flip-card-front7 {
+    color: black;
+}
+  .flip-card-back7 {
+    transform: rotateY(180deg);
+}
+
+
+
+.flip-card8 {
+    top: 70%;
+    left: 37%;
+    position: absolute;
+    display: block;
+    background-color: transparent;
+    width: 344px;
+    height: 217px;
+}
+  
+  .flip-card-inner8 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+  
+  .flip-card-front8, .flip-card-back8 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+}
+  .flip-card-front8 {
+    color: black;
+}
+  .flip-card-back8 {
+    transform: rotateY(180deg);
+}
+
+
+.flip-card9 {
+    top: 70%;
+    left: 64%;
+    position: absolute;
+    display: block;
+    background-color: transparent;
+    width: 344px;
+    height: 217px;
+}
+  
+  .flip-card-inner9 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+  
+  .flip-card-front9, .flip-card-back9 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+}
+  .flip-card-front9 {
+    color: black;
+}
+  .flip-card-back9 {
+    transform: rotateY(180deg);
+}
+
+
+
+
+
+
+
+
+
+  .perevorot {
+    transform: rotateY(180deg);
+} 
 
 
 
@@ -663,6 +1278,13 @@ section {
     left: 90%;
     display: block;
     position: absolute;
+}
+
+
+
+
+.Secpaw1, .Secpaw6, .Secpaw12, .paw9, .paw6, .paws4, .paws1, .b2, .blob, .firstg, .igra1, .arrBack, .arrowBack, .secondg, .igra2, .arrClick3, .arrClick1, .arrClick2, .arrClick4 {
+    cursor: pointer;
 }
 
 

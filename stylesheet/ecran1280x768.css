@@ -1,0 +1,280 @@
+@media only screen and (min-width: 1280px) and (max-width: 1365px) {
+
+    .firstsection {
+        width: 100vw;
+        height: 719px;
+    }
+
+    .blobscale {
+        width: 684px;
+        height: 390px;
+    }
+    .conf1scale {
+        width: 1039px;
+        height: 683px;
+    }
+
+    .name1 {
+        font-weight: 400;
+        font-size: 88px;
+        line-height: 388px;
+        left: 13%;
+    }
+
+    .doggie1 {
+        top: 22%;
+    }
+
+    .doggie1scale {
+        transform: scale(0.7);    
+    }
+
+    .rabbit1 {
+        position: absolute;
+        z-index: -1;
+        top: 6%;
+        left: 15%;
+        opacity: 0;
+        transform: rotate(12deg);
+    }
+
+    .rabbit1scale {
+        transform: scale(0.7);
+    }
+
+    .b1 {
+        top: 35%;
+        width: 94px;
+        height: 336px;
+    }
+    .b2 {
+        top: 48%;
+        width: 124px;
+        height: 262px;       
+    }
+    .b3 {
+        top: 35%;
+        width: 94px;
+        height: 337px;       
+    }
+
+    .rowcowscale {
+        transform: scale(0.9);
+    }
+
+    .rowCow {
+        top: 52%;
+    }
+
+    .text1 {
+        left: 9%;
+        top: 5%;
+        font-weight: 400;
+        font-size: 45px;
+        line-height: 61px;
+    }
+
+    .paws1c, .paw2c, .paw3c, .paws4c, .paw5c, .paw6c, 
+    .paw7c, .paw8c, .paw9c, .paw10c {
+        z-index: 2;
+    }
+
+     .pawclick1, .paws1c, .pawclick2, .paw2c, 
+     .paw3c, .pawclick3, .pawclick4, .paws4c,
+     .paw5c, .pawclick5, .paw6c, .pawclick6, 
+     .paw7c, .pawclick7, .paw8c, .paw9c, .pawclick9, 
+     .paw10c, .pawclick10  {
+        transform: scale(0.9);
+    }
+
+    .rowCowsecscale {
+        transform: scale(0.9);    
+    }
+    .rowCow2 {
+        top: 62.5%;
+    }
+
+    .b4 {
+        top: 48%;
+        width: 119px;
+        height: 350px;
+    }
+    .b5 {
+        top: 48%;
+        width: 118px;
+        height: 350px;
+    }
+    .b6 {
+        left: 50%;
+        top: 52%;
+        width: 90px;
+        height: 320px;
+    }
+    .b7 {
+        top: 52%;
+        width: 90px;
+        height: 320px;
+    }
+
+    .text2 {
+        font-weight: 400;
+        font-size: 45px;
+        line-height: 61px;     
+    }
+
+    .Secpaw1c, .Secpaw2c, .Secpaw3c, .Secpaw4c, .Secpaw5c,
+    .Secpaw6c, .Secpaw7c, .Secpaw8c, .Secpaw9c, .Secpaw10c,
+    .Secpaw11c, .Secpaw12c, .Secpaw13c, .Secpaw14c, .Secpaw15c, .Secpaw16c,
+    .Secpaw17c, .Secpaw18c {
+        z-index: 2;
+    }
+    .Secpaw1c, .Secp1, .Secpaw2c, .Secp2, .Secpaw3c, 
+    .Secp3, .Secpaw4c, .Secp4, .Secpaw5c, .Secp5, .Secpaw6c,
+    .Secp6, .Secpaw7c, .Secp7, .Secpaw8c, .Secp8, .Secpaw9c, 
+    .Secp9, .Secpaw10c, .Secp10, .Secpaw11c, .Secp11, .Secp12, .Secpaw12c,
+    .Secpaw13c, .Secp13, .Secp14, .Secpaw14c, .Secpaw15c, .Secp15, .Secpaw16c, 
+    .Secp16, .Secpaw17c, .Secp17, .Secpaw18c, .Secp18 {
+        transform: scale(0.9);
+   
+    }
+
+    .Secpaw11 {
+        left: 48%;
+    }
+
+    .firstg {
+        width: 260px;
+        height: 311px;
+    }
+    .secondg {
+        width: 260px;
+        height: 311px;    
+    }
+    .thirdg {
+        width: 260px;
+        height: 311px;    
+    }
+    .fourthg {
+        width: 260px;
+        height: 311px;    
+    }
+
+    .igra1 {
+        top: 45%;
+        font-size: 46px;
+        line-height: 61px;
+    }
+    .igra2 {
+        top: 45%;
+        font-size: 46px;
+        line-height: 61px;    
+    }
+    .igra3 {
+        top: 45%;
+        font-size: 46px;
+        line-height: 61px;       
+    }
+    .igra4 {
+        top: 45%;
+        font-size: 46px;
+        line-height: 61px;        
+    }
+
+    .anim3 {
+        height: 798px;
+        width: 100vw;
+    }
+
+    .linedog {
+        width: 377px;
+        height: 255px;
+    }
+
+    .line {
+        text-align: center;
+        font-weight: 400;
+        font-size: 80px;
+        line-height: 196px;
+        color: #F4F4F4;
+        font-family: 'shirota', arial;
+        transform: translateX(-825px);
+        top: 65.5%;
+        position: absolute;
+        display: block;
+        width: 955px;
+        height: 196px;
+        background: #E25581;
+        animation: linerunning 8s linear infinite;
+    }
+
+
+    .leftstar {
+        left: -1%;
+        position: absolute;
+        transform: scale(0.9);
+        top: -2%;
+    }
+    .rightstar {
+        top: -2%;
+        transform: scale(0.9);
+        left: 90%;
+        display: block;
+        position: absolute;
+    }
+
+    .zagolovok1 {
+        top: 6%;
+        position: absolute;
+        font-weight: 400;
+        font-size: 45px;
+        line-height: 40px;
+        color: #F4F4F4;
+        font-family: 'shirota', arial;
+        left: 27%;
+    }
+
+    .BunnyClean {
+        top: 20%;
+        left: 14%;
+        position: absolute;
+        transform: scale(0.75);
+    }
+
+    .dirt1, .dirt2, .dirt3, .dirt4, .dirt5, .dirt6, .dirt7 {
+        transform: scale(0.8);
+    } 
+
+    .zagolovok2 {
+        font-size: 45px;
+        line-height: 40px;      
+    }
+
+    .zagolovok3 {
+        font-size: 45px;
+        line-height: 40px;      
+    }
+
+    .cards {
+        height: 100vw;
+        transform: scale(0.9);
+    }
+
+    .flip-card1, .flip-card2, .flip-card3 {
+        top: 5%;
+    }
+
+    .flip-card4, .flip-card5, .flip-card6 {
+        top: 23%;
+    }
+
+    .flip-card7, .flip-card8, .flip-card9 {
+        top: 41%;      
+    }
+
+
+
+
+ 
+    
+    
+}
