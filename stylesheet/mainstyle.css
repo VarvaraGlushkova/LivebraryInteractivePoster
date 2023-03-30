@@ -5,7 +5,7 @@
 /* Мне просто удобнее когда несколько файлов, простите */
 
 
-@font-face {
+body {
     font-family: 'shirota';
     font-style: normal;
     font-weight: 400;
