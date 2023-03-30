@@ -1,10 +1,17 @@
 @import "reset.css";
 @import url('https://fonts.cdnfonts.com/css/singly-linked');
 @import url('https://myfonts.ru/myfonts?fonts=shirota');
-@import url('https://myfonts.ru/myfonts?fonts=shirota');
 
 /* Мне просто удобнее когда несколько файлов, простите */
 
+
+@font-face {
+    font-family: 'shirota';
+    font-style: normal;
+    font-weight: 400;
+    src: local('shirota'),
+        url(https://myfonts.ru/fonts/6/6/6/6/9/shirota.otf) format('truetype');
+} 
 
 @import "ecran1440x900.css";
 @import "ecran1366x768.css";
@@ -14,7 +21,7 @@
 @import "ecran1728x900.css";
 @import "ecran1920x1080.css";
 
-                
+              
 
 
 
