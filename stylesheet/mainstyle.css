@@ -3,15 +3,7 @@
 @import url('https://myfonts.ru/myfonts?fonts=shirota');
 
 /* Мне просто удобнее когда несколько файлов, простите */
-
-
-body {
-    font-family: 'shirota';
-    font-style: normal;
-    font-weight: 400;
-    src: local('shirota'),
-        url(https://myfonts.ru/fonts/6/6/6/6/9/shirota.otf) format('truetype');
-} 
+ 
 
 @import "ecran1440x900.css";
 @import "ecran1366x768.css";
